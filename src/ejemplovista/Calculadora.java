@@ -66,10 +66,9 @@ public class Calculadora extends javax.swing.JFrame {
                         .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(174, 174, 174)
-                        .addComponent(jButton1_calcular))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(191, 191, 191)
-                        .addComponent(jLabel2_Resultado)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel2_Resultado, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton1_calcular))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
