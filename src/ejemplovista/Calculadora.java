@@ -102,7 +102,7 @@ public class Calculadora extends javax.swing.JFrame {
             jLabel2_Resultado.setText("Resultado "+resul);
         }catch(NumberFormatException nf){
         
-            JOptionPane.showMessageDialog(this,"Error... Usted debe ingresar un número");
+            JOptionPane.showMessageDialog(this,"Error... Usted debe ingresar un número, intentelo nuevamente");
             jTextField1_numero.requestFocus();
         }
     }//GEN-LAST:event_jButton1_calcularActionPerformed
